@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jomei/notionapi"
+	"github.com/Jasondeepny/notionapi"
 )
 
 func TestPageClient(t *testing.T) {
