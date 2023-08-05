@@ -78,6 +78,10 @@ func (p NumberProperty) GetType() PropertyType {
 	return p.Type
 }
 
+func (p NumberProperty) GetNum() float64 {
+	return p.Number
+}
+
 type SelectProperty struct {
 	ID     ObjectID     `json:"id,omitempty"`
 	Type   PropertyType `json:"type,omitempty"`
